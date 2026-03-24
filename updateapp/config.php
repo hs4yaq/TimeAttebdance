@@ -8,7 +8,7 @@ if (!defined('SECURE_ACCESS')) {
     die('❌ ไม่อนุญาตให้เข้าถึงไฟล์นี้โดยตรง');
 }
 
-// 1. นำ Client ID จาก Google Cloud Console มาใส่ที่นี่
+// 1. นำ Client ID จาก Google Cloud Console มาใส่ที่นี่ 
 define('GOOGLE_CLIENT_ID', '=======================แก้ไขตรงนี้=======================');
 
 // 2. กำหนดอีเมล (Gmail) ที่อนุญาตให้ล็อคอินเข้าระบบได้ (ใส่กี่อีเมลก็ได้)

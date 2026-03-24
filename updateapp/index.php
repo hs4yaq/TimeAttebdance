@@ -16,7 +16,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
     header("Location: " . $_SERVER['PHP_SELF']);
     exit;
 }
-
+ 
 // จัดการการเข้าสู่ระบบด้วย Google
 $login_error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['credential'])) {

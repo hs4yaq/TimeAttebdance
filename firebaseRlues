@@ -67,6 +67,7 @@ service cloud.firestore {
           allow update, delete: if isAdmin(); 
         }
         
+        
         match /system_logs/{logId} {
           allow create: if isUser(); // อนุญาตให้พนักงาน/แอดมิน ที่เข้าสู่ระบบแล้วสร้าง Log ได้
           allow read: if isAdmin();  // บังคับให้เฉพาะ แอดมิน เท่านั้นที่สามารถดึง Log ไปดูได้ (ความปลอดภัยระดับ 2)

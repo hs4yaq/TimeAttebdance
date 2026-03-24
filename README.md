@@ -6,6 +6,7 @@ service cloud.firestore {
     }
   }
 }
+
 2. การเชื่อมต่อโค้ดClone repository นี้:git clone [https://github.com/yourusername/ptc-timeattendance.git](https://github.com/yourusername/ptc-timeattendance.git)
 เปิดไฟล์ index.htmlค้นหาบรรทัด const firebaseConfig = { ... } และแทนที่ด้วย Config จากโปรเจกต์ Firebase ของคุณ:const firebaseConfig = {
     apiKey: "YOUR_API_KEY",
